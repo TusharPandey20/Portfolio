@@ -21,8 +21,8 @@ export const initialProfile: UserProfile = {
     'Senior Software Developer with 3+ years of experience building scalable applications, distributed systems, broadcast graphics tools, and native mobile apps. Skilled in C#, .NET, WPF, WinForms, ASP.NET Web API, Android (Java/Kotlin), and MySQL, with a strong focus on backend services, clean architecture, high-availability systems, and performance optimization.',
   freelanceAvailability: 'Available for Custom Software, Mobile & Full-Stack Projects',
   hourlyRate: '$45 – $70 / hr or Fixed-Milestone Scope',
-  experienceYears: 3,
-  projectsCompleted: 15,
+  experienceYears: 4,
+  projectsCompleted: 8,
   clientSatisfaction: '100% Milestone Delivery',
 };
 

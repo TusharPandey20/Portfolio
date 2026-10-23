@@ -51,12 +51,6 @@ export default function Navbar({
         {/* Zone 2: 4–5 clean single-line text navigation links */}
         <nav className="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-300">
           <a
-            href="#background"
-            className="hover:text-white transition-colors whitespace-nowrap shrink-0"
-          >
-            Background
-          </a>
-          <a
             href="#skills"
             className="hover:text-white transition-colors whitespace-nowrap shrink-0"
           >
@@ -133,13 +127,6 @@ export default function Navbar({
       {mobileMenuOpen && (
         <div className="lg:hidden bg-[#090d16] border-b border-slate-800 px-6 py-5 shadow-2xl">
           <nav className="flex flex-col gap-3 text-sm font-medium text-slate-300">
-            <a
-              href="#background"
-              onClick={() => setMobileMenuOpen(false)}
-              className="py-2 hover:text-white border-b border-slate-800/50"
-            >
-              Background Overview
-            </a>
             <a
               href="#skills"
               onClick={() => setMobileMenuOpen(false)}

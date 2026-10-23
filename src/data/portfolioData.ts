@@ -16,7 +16,7 @@ export const initialProfile: UserProfile = {
   location: 'Noida, India · Remote UK & Global Freelance',
   linkedinUrl: 'https://www.linkedin.com/in/tushar-pandey-482405228?utm_source=share_via&utm_content=profile&utm_medium=member_android',
   githubUrl: 'https://github.com/TusharPandey20',
-  avatarUrl: '/src/assets/images/tushar_portrait_edited.jpg',
+  avatarUrl: new URL('../assets/images/tushar_portrait_edited.jpg', import.meta.url).href,
   summary:
     'Senior Software Developer with 3+ years of experience building scalable applications, distributed systems, broadcast graphics tools, and native mobile apps. Skilled in C#, .NET, WPF, WinForms, ASP.NET Web API, Android (Java/Kotlin), and MySQL, with a strong focus on backend services, clean architecture, high-availability systems, and performance optimization.',
   freelanceAvailability: 'Available for Custom Software, Mobile & Full-Stack Projects',
@@ -68,7 +68,7 @@ export const initialProjects: ProjectItem[] = [
     clientType: 'Commercial Enterprise / GitHub Featured',
     role: 'Lead Software Architect & Developer',
     duration: 'Production System',
-    image: '/src/assets/images/project_cloud_platform_1792655324893.jpg',
+    image: new URL('../assets/images/project_cloud_platform_1792655324893.jpg', import.meta.url).href,
     description:
       'Comprehensive pharmaceutical management and operational software developed to streamline medical inventory, batch tracking, invoicing, and supply chain accountability.',
     challenge:
@@ -97,7 +97,7 @@ export const initialProjects: ProjectItem[] = [
     clientType: 'Research & Open Source / GitHub Featured',
     role: 'System Architect & Software Developer',
     duration: 'Production System',
-    image: '/src/assets/images/project_ai_platform_1792655325143.jpg',
+    image: new URL('../assets/images/project_ai_platform_1792655325143.jpg', import.meta.url).href,
     description:
       'Cutting-edge translation and transliteration engine specifically designed for ancient Akkadian cuneiform texts, leveraging algorithmic linguistics and software engineering.',
     challenge:
@@ -126,7 +126,7 @@ export const initialProjects: ProjectItem[] = [
     clientType: 'Planetcast Media Services Limited',
     role: 'Software Engineer',
     duration: '1 yr 3 mos Production System',
-    image: '/src/assets/images/project_fintech_engine_1792655325293.jpg',
+    image: new URL('../assets/images/project_fintech_engine_1792655325293.jpg', import.meta.url).href,
     description:
       'High-performance broadcast application developed for real-time graphics overlay, title tickers, and audio/video channel feed integration for major television networks.',
     challenge:
@@ -155,7 +155,7 @@ export const initialProjects: ProjectItem[] = [
     clientType: 'Europa Worldwide Group (UK)',
     role: 'Senior Software Developer',
     duration: 'Active Production System',
-    image: '/src/assets/images/project_cloud_platform_1792655324893.jpg',
+    image: new URL('../assets/images/project_cloud_platform_1792655324893.jpg', import.meta.url).href,
     description:
       'Enterprise backend services and application infrastructure powering global freight forwarding, logistics tracking, and European customs clearance operations.',
     challenge:

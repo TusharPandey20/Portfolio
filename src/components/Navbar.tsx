@@ -49,7 +49,7 @@ export default function Navbar({
         </a>
 
         {/* Zone 2: 4–5 clean single-line text navigation links */}
-        <nav className="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-300">
+        <nav className="hidden xl:flex items-center gap-7 text-sm font-medium text-slate-300">
           <a
             href="#skills"
             className="hover:text-white transition-colors whitespace-nowrap shrink-0"
@@ -115,7 +115,7 @@ export default function Navbar({
           {/* Mobile hamburger */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 text-slate-400 hover:text-white rounded-lg hover:bg-slate-800/60"
+            className="xl:hidden p-2 text-slate-400 hover:text-white rounded-lg hover:bg-slate-800/60"
             aria-label="Toggle navigation menu"
           >
             {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -125,7 +125,7 @@ export default function Navbar({
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-[#090d16] border-b border-slate-800 px-6 py-5 shadow-2xl">
+        <div className="xl:hidden bg-[#090d16] border-b border-slate-800 px-6 py-5 shadow-2xl">
           <nav className="flex flex-col gap-3 text-sm font-medium text-slate-300">
             <a
               href="#skills"

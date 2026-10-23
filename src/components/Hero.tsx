@@ -32,7 +32,7 @@ export default function Hero({ profile, onOpenEstimator, onOpenResume }: HeroPro
             {/* Lead Copy */}
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl font-normal">
               Hi, I'm <strong className="text-white font-semibold">{profile.name}</strong>. Senior
-              Software Developer with 3+ years of experience building scalable applications,
+              Software Developer with 4+ years of experience building scalable applications,
               distributed systems, and broadcast tools. Skilled in <strong className="text-white">C#, .NET, WPF, WinForms, ASP.NET Web API</strong>, and <strong className="text-white">Android (Java/Kotlin)</strong> with clean architecture and performance optimization.
             </p>
 

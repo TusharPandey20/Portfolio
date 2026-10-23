@@ -54,7 +54,7 @@ export default function Navbar({
             href="#skills"
             className="hover:text-white transition-colors whitespace-nowrap shrink-0"
           >
-            Skills Matrix
+            Skills
           </a>
           <a
             href="#projects"
@@ -72,13 +72,13 @@ export default function Navbar({
             href="#education"
             className="hover:text-white transition-colors whitespace-nowrap shrink-0"
           >
-            Studies & Certifications
+            Studies & Certificates
           </a>
           <a
             href="#services"
             className="hover:text-white transition-colors whitespace-nowrap shrink-0"
           >
-            Freelance Services
+            Services
           </a>
         </nav>
 
